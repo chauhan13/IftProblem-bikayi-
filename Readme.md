@@ -57,7 +57,7 @@ The nearest lift is chosen by checking lifts
 
 ```
 for each request in req array {
-	assignlift(lifts, Req)
+	assignlift(lifts, Request)
 }
 
 ```
@@ -65,7 +65,7 @@ Assign an lift to every person
 
 
 ```
-assignlift(lifts, Req) {
+assignlift(lifts, Request) {
 	nearestlift = findNearestlift(lifts, Request) 
 	nearestlift.stops.add(request.floorNo)
 	if (lift.state == 'idle')
