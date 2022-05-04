@@ -6,7 +6,8 @@ to request a lift when peoples press a button
 req={
 	floorNo
 	direction
-	liftassign:liftId		
+	liftassign:liftId
+	
 }
 
 
@@ -16,6 +17,7 @@ lift={
 	Capacity : true / false
 	floorNo
 	stops : [ ] 
+	Stopsassign: odd or even including UB,LB,1,Top floor
 }
 ```
 
