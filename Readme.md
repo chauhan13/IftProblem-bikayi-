@@ -104,7 +104,7 @@ findNearestlift(lift, Request) {
 }
 ```
 
-Method called when lift stops at a floor. We need to reassign a person request if lift becomes full.
+function called when lift stops at a floor. We need to reassign a person request if lift becomes full.
 
 ```
 updateliftState(lift) {
